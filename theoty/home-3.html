@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="shortcut icon" href="https://nomadcoders.co/m.png" />
+    <title>Home - My website</title>
+    <meta charset="utf-8" />
+    <style>
+      main {
+        height: 80vh;
+        display: flex;
+        margin: 20px;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+        width: 50px;
+        height: 50px;
+        background-color: darkseagreen;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </main>
+    <p>
+      inline-block은 inline에 높이와 넓이를 줄 수 있지만, 잘 쓰이지 않음 ->
+      Responsive Design(반응형 디자인)을 지원하지 않음<br />
+      Flexbox - 위의 문제를 해결하기 위해 등장 <br />
+      - 자식 엘리먼트에 어떤 것도 적지 말아야 함 (오직 부모 엘리먼트에 명시)<br />
+      (ex - div : 자식 / body : 부모(flex container)) <br />
+      - main axis(주축) (ex - justify-content)<br />
+      - cross axis(교차축) (ex - align-items)<br />
+      (주축 / 교차축은 기본 값이 수평 / 수직으로 설정되어 있음) <br />
+      (flex-direction : 주축의 기본 값을 변경, 교차축도 직각에 맞게 바뀜 column
+      & row) <br />
+      (div에 flex를 거는 경우 content 가 flex의 적용을 받음, 자식의 자식은
+      적용받지 않음)
+    </p>
+  </body>
+</html>
