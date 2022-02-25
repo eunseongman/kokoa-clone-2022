@@ -43,6 +43,8 @@ BEM(Block Element Modifier) : 이름을 효율적으로 보기 쉽게 짓는 방
 
 - nav>il>li\*(필요한 갯수)>a / list를 쉽게 생성할 수 있는 단축키
 - box-sizing: border-box; / padding 값으로 인해 width가 늘어나는 문제 해결
+- box-shadow / 박스 그림자 넣기
+- overflow-x / 가로 스크롤 넣기
 
 느낀점 :
 

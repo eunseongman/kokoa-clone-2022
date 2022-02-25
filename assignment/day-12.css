@@ -1,0 +1,232 @@
+:root {
+    --main-shadow : 0px 5px 20px rgba(0,0,0,0.3);
+    --gray : rgba(0,0,0,0.5);
+}
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+</style>
+
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #222222;
+}
+
+main {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.screen-column {
+    background-color: white;
+    box-shadow: var(--main-shadow);
+    width: 340px;
+    height: 730px;
+    border-radius: 30px;
+    margin: 0px 30px;
+    padding: 0px 25px;
+    box-sizing: border-box;
+    position: relative;
+}
+.screen-header {
+    padding: 40px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main-artist__img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 15px #0217188e; 
+}
+.main-artist__name {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.main-artist__tag {
+    font-size: 15px;
+    color: var(--gray);
+    margin-bottom: 30px;
+}
+.main-artist__bnt {
+    display: flex;
+    justify-content: center;
+}
+.main-artist__bnt div {
+    margin: 0px;
+    padding: 10px 30px;
+    margin: 0px 5px;
+    border-radius: 20px;
+
+}
+.main-artist__bnt-shuffle {
+    background-color: #222222;
+    color: white;
+    font-size: 15px;
+}
+.main-artist__bnt-heart {
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1)
+}
+.main-artist__bnt-heart span {
+    color:  var(--gray);
+    font-size: 15px;
+}
+.main-songs {
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.select-song {
+    box-shadow: 0px 0px 30px rgba(0,0,0,0.1); 
+    border-radius: 20px;
+}
+.main-songs__column {
+    display: flex;
+}
+.main-songs__img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+
+}
+.main-songs__column i {
+    color : var(--gray);
+}
+
+.main-songs__text {
+    margin-left: 20px;
+}
+.main-songs__text span {
+    font-size: 12px;
+    color: var(--gray);
+}
+.main-songs__text h5{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+}
+.select-img {
+    position: relative;
+}
+.select-song__icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+.select-song__icon i {
+    color: white;
+
+}
+
+.select-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    border-radius: 30px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+    padding: 10px 20px;
+    padding-left: 30px;
+    position: absolute;
+    bottom: 15px;
+    width: 240px;
+}
+.select-bar__text span {
+    font-size: 12px;
+    color: gray;
+}
+.select-bar__text h5 {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    color: white;
+}
+.select-bar__column i {
+    color:white;
+    margin: 0px 10px;
+}
+.select-bar__column:last-child {
+    display: flex;
+    align-items: center;
+
+}
+.now-playing__img {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.now-playing__img img {
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px #5777a0; 
+}
+.now-playing__bnt {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+}
+.gray-icon {
+    color: var(--gray);
+}
+.play-icon {
+    box-shadow: var(--main-shadow);
+    border-radius: 50%;
+}
+.now-playing__time {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.now-playing__time span {
+    color: var(--gray);
+    font-size: 15px;
+}
+.now-playing__bar {
+    position: relative;
+}
+.now-playing__bar div {
+    position: absolute;
+}
+.now-playing__bar-past {
+    background-color: #222222;
+    height: 4px;
+    width: 145px;
+    border-radius: 30px;
+
+}
+.now-playing__bar-future {
+    height: 4px;
+    width: 290px;
+    background-color: var(--gray);
+    border-radius: 30px;
+
+}
+.now-playing__bar-now {
+    width: 10px;
+    height: 10px;
+    background-color: #222222;
+    border-radius: 50%;
+    left: 140px;
+    top: -3px
+}
