@@ -3,7 +3,7 @@
 }
 
 .more-last-column i {
-  color: #2e363e;
+  color: var(--gray);
 }
 
 .more-suggestions {
@@ -28,14 +28,34 @@
 .more-suggestions__icon-img {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
   border-radius: 10px;
+  margin-bottom: 10px;
+  background-color: var(--yellow);
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
 }
+
 .more-suggestions__icon-img i {
   font-size: 32px;
   color: white;
+}
+.github-img {
+  background-color: blueviolet;
+}
+.font-awesome-img {
+  background-color: white;
+}
+.font-awesome-img i {
+  color: #336cb8;
+}
+.nomad-img {
+  background-color: white;
+}
+.nomad-img img {
+  width: 40px;
+  height: 32px;
+}
+.more-suggestions__icon-text {
+  text-align: center;
 }

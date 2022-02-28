@@ -10,6 +10,7 @@
 @import "components/user-component.css";
 @import "components/badge.css";
 @import "components/icon-row.css";
+@import "components/no-mobile.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -19,7 +20,8 @@
 @import "screens/chat.css";
 
 body {
-  color: #2e363e;
+  background-color: black;
+  color: white;
   font-family: "Open Sans", sans-serif;
 }
 

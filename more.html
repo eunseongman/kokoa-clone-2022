@@ -14,7 +14,7 @@
         <i class="fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>15:57</span>
+        <span>20:30</span>
       </div>
       <div class="status-bar__column">
         <span>111%</span>
@@ -28,8 +28,9 @@
       <div class="screen-header__icons">
         <span> <i class="fa-solid fa-magnifying-glass fa-lg"></i> </span>
         <span> <i class="fa-solid fa-music fa-lg"></i> </span>
-        <span> <a href="settings.html">
-          <i class="fa-solid fa-gear fa-lg"></i></a>
+        <span>
+          <a href="settings.html"> <i class="fa-solid fa-gear fa-lg"></i></a>
+          <div class="screen-header__gear badge--dot"></div>
         </span>
       </div>
     </header>
@@ -38,13 +39,13 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="theoty/img/topsters2021.png"
+            src="html-img/topsters2021.png"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
             <h4 class="user-component__title">Eunseong</h4>
             <div>
-              <h6 class="user-component__subtitle">+82 8612-4155</h6>
+              <h6 class="user-component__subtitle">+82 1234-5678</h6>
               <span class="badge--warning">!</span>
             </div>
           </div>
@@ -77,25 +78,31 @@
         <h4 class="more-suggestions__title">Suggestions</h4>
 
         <div class="more-suggestions__icons">
-          <div class="more-suggestions__icon">
-          <div class="more-suggestions__icon-img">
-            <i class="fa-solid fa-quote-right"></i>
-          </div>
-          <span class="more-suggestions__icon-text">Kokoa Story</span>
-        </div>
+           <div class="more-suggestions__icon">
+            <a href="https://nomadcoders.co/">
+             <div class="more-suggestions__icon-img nomad-img">
+              <img src="https://nomadcoders.co/m.svg">
+             </div>
+            </a>
+          <span class="more-suggestions__icon-text">Nomad <br> Coders</span>
+             </div>
 
         <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-img">
-              <i class="fa-solid fa-quote-right"></i>
+          <a href="https://github.com/eunseongman/kokoa-clone-2022">
+            <div class="more-suggestions__icon-img github-img">
+              <i class="fa-brands fa-github"></i>
             </div>
-            <span class="more-suggestions__icon-text">Kokoa Story</span>
+          </a>
+            <span class="more-suggestions__icon-text">Github</span>
           </div>
 
           <div class="more-suggestions__icon">
-            <div class="more-suggestions__icon-img">
-              <i class="fa-solid fa-quote-right"></i>
-            </div>
-            <span class="more-suggestions__icon-text">Kokoa Story</span>
+            <a href="https://fontawesome.com/">
+             <div class="more-suggestions__icon-img font-awesome-img">
+               <i class="fa-brands fa-font-awesome"></i>
+             </div>
+            </a>
+            <span class="more-suggestions__icon-text">Font <br>Awesome</span>
           </div>
       </div>
     </main>
@@ -126,6 +133,11 @@
         </li>
       </ul>
     </nav>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
+
     <script
       src="https://kit.fontawesome.com/256511a75d.js"
       crossorigin="anonymous"

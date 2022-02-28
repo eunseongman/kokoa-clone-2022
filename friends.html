@@ -14,7 +14,7 @@
         <i class="fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">
-        <span>15:57</span>
+        <span>20:30</span>
       </div>
       <div class="status-bar__column">
         <span>111%</span>
@@ -28,8 +28,10 @@
       <div class="screen-header__icons">
         <span> <i class="fa-solid fa-magnifying-glass fa-lg"></i> </span>
         <span> <i class="fa-solid fa-music fa-lg"></i> </span>
-        <span> <a href="settings.html">
-          <i class="fa-solid fa-gear fa-lg"></i></a>
+        <span>
+          <a href="settings.html"> <i class="fa-solid fa-gear fa-lg"></i></a>
+          <div class="screen-header__gear badge--dot"></div>
+        </span>
       </div>
     </header>
 
@@ -43,7 +45,7 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="theoty/img/topsters2021.png"
+            src="html-img/topsters2021.png"
             class="user-component__avatar user-component__avatar--xl"
           />
           <div class="user-component__text">
@@ -59,26 +61,81 @@
           <span>Channel</span>
           <i class="fa-solid fa-angle-up fa-xs"></i>
         </div>
+      </div>
 
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="theoty/img/box.png"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title user-component__title--not-bold">
-                Channel
-              </h4>
-            </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <div
+            class="user-no-img user-no-img--yellow user-component__avatar user-component__avatar--sm"
+          >
+            <i class="fa-solid fa-comment-medical fa-2x"></i>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fa-solid fa-angle-right fa-xs"></i>
-            </div>
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              Channel
+            </h4>
           </div>
         </div>
+        <div class="user-component__column">
+          <div>
+            <span>2</span>
+            <i class="fa-solid fa-angle-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen_channel">
+        <div class="friends-screen_channel-header my-friends-header">
+          <span>My Friends</span>
+          <i class="fa-solid fa-angle-up fa-xs"></i>
+        </div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="html-img/fire.png"
+            class="user-component__avatar user-component__avatar--sm"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              뜨아거
+            </h4>
+            <h6 class="user-component__subtitle">불꽃악어 포켓몬</h6>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="html-img/water.png"
+            class="user-component__avatar user-component__avatar--sm"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              꾸왁스
+            </h4>
+            <h6 class="user-component__subtitle">꼬마오리 포켓몬</h6>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="html-img/grass.png"
+            class="user-component__avatar user-component__avatar--sm"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              나오하
+            </h4>
+            <h6 class="user-component__subtitle">풀고양이 포켓몬</h6>
+          </div>
+        </div>
+        <div class="user-component__column"></div>
       </div>
     </main>
 
@@ -108,6 +165,15 @@
         </li>
       </ul>
     </nav>
+
+    <div id="splash-screen">
+      <i class="fa-solid fa-comment"></i>
+    </div>
+
+    <div id="no-mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
+
     <script
       src="https://kit.fontawesome.com/256511a75d.js"
       crossorigin="anonymous"
